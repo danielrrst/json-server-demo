@@ -1,0 +1,14 @@
+{
+  "name": "versel-json-server",
+  "version": "1.0.0",
+  "description": "example json server",
+  "main": "index.js",
+  "repository": "https://github.com/danielrrst/json-server-demo.git",
+  "license": "MIT",
+  "dependencies": {
+    "json-server": "^0.17.0"
+  },
+  "scripts": {
+    "start": "json-server ./testserver/data.json -p 3000"
+  }
+}
